@@ -1,0 +1,40 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="srag-ai-reporter",
+    version="1.0.0",
+    description="Sistema de relatórios automatizados sobre SRAG usando IA Generativa",
+    author="Indicium Healthcare PoC",
+    packages=find_packages(),
+    install_requires=[
+        "pandas>=2.1.4",
+        "numpy>=1.26.2",
+        "matplotlib>=3.8.2",
+        "seaborn>=0.13.0",
+        "plotly>=5.17.0",
+        "requests>=2.31.0",
+        "beautifulsoup4>=4.12.2",
+        "langchain>=0.1.0",
+        "langchain-community>=0.0.13",
+        "langchain-openai>=0.0.5",
+        "langgraph>=0.0.20",
+        "python-dotenv>=1.0.0",
+        "openai>=1.6.1",
+        "feedparser>=6.0.10",
+        "newspaper3k>=0.2.8",
+        "python-dateutil>=2.8.2",
+        "scikit-learn>=1.3.2",
+        "chromadb>=0.4.22",
+        "tiktoken>=0.5.2"
+    ],
+    python_requires=">=3.9",
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Healthcare Industry",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+)
