@@ -2,6 +2,7 @@
 
 Sistema de análise automatizada de dados epidemiológicos de Síndrome Respiratória Aguda Grave (SRAG) com geração de relatórios estruturados para suporte à tomada de decisão em saúde pública.
 
+## Base utilizada : https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024
 ## Descrição Técnica
 
 O SRAG AI Reporter é uma aplicação desenvolvida como Prova de Conceito (PoC) para automação de análise epidemiológica, implementando algoritmos de processamento de dados de vigilância em saúde e métricas estatísticas relevantes para monitoramento de surtos respiratórios.
@@ -302,4 +303,5 @@ Templates de relatório podem ser customizados editando:
 - Processamento otimizado para datasets de até 100.000 registros
 - Consultas indexadas no banco SQLite
 - Cache de resultados para análises repetitivas
+
 - Processamento em lote para operações de agregação
