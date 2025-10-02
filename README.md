@@ -1,4 +1,5 @@
 # SRAG AI Reporter
+<img width="1475" height="822" alt="image" src="https://github.com/user-attachments/assets/3b0a1cff-4d82-451c-9a15-acfa1e27311a" />
 
 Sistema de análise automatizada de dados epidemiológicos de Síndrome Respiratória Aguda Grave (SRAG) com geração de relatórios estruturados para suporte à tomada de decisão em saúde pública.
 
@@ -6,6 +7,7 @@ Sistema de análise automatizada de dados epidemiológicos de Síndrome Respirat
 ## Descrição Técnica
 
 O SRAG AI Reporter é uma aplicação desenvolvida como Prova de Conceito (PoC) para automação de análise epidemiológica, implementando algoritmos de processamento de dados de vigilância em saúde e métricas estatísticas relevantes para monitoramento de surtos respiratórios.
+<img width="1346" height="669" alt="image" src="https://github.com/user-attachments/assets/be9f6b6d-a55b-4136-a9e2-d189a42ec88d" />
 
 ### Funcionalidades Principais
 
@@ -27,8 +29,10 @@ O SRAG AI Reporter é uma aplicação desenvolvida como Prova de Conceito (PoC) 
 - Visualizações interativas de séries temporais
 - Exportação de dados analíticos em JSON
 - Dashboard com métricas consolidadas
+![Uploading image.png…]()
 
 ### Arquitetura do Sistema
+<img width="1273" height="548" alt="image" src="https://github.com/user-attachments/assets/85d9c28b-8cf9-49fa-b83a-ead67cb237f4" />
 
 #### Componentes Principais
 
@@ -305,3 +309,4 @@ Templates de relatório podem ser customizados editando:
 - Cache de resultados para análises repetitivas
 
 - Processamento em lote para operações de agregação
+
